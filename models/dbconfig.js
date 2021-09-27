@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 mongoose.connect(
-    "mongodb+srv://ID:PASSword@cluster0.rblth.mongodb.net/test",
+    "mongodb+srv://':'@cluster0.rblth.mongodb.net/test",
     { useNewURLParser: true, useUnifiedTopology: true},
     (err) => {
         if (!err) 
